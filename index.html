@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Theme Switcher</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
         <!--Main Content-->
         <!--Theme Buttons-->
         <section class="themes">
-            <button id="light-theme-btn">Light Theme</button>
-            <button id="dark-theme-btn">Dark Theme</button>
-            <button id="colorful-theme-btn">Colorful</button>
-            <button id="neon/theme/btn">Neon</button>
+            <button class="theme-btn light">🌞 Light</button>
+            <button class="theme-btn dark">🌙 Dark</button>
+            <button class="theme-btn colorful">🌈 Colorful</button>
+            <button class="theme-btn neon">⚡ Neon</button>
         </section>
 
         <!--Current Theme-->
@@ -31,35 +32,35 @@
             <h2>Modern Web Technologies</h2>
 
             <ul>
-                <li><strong>React:</strong>JavaScript library for building UIs.</li>
-                <li><strong>Components:</strong>Reusable UI building blocks.</li>
-                <li><strong>Pops & State:</strong>Data handling in components.</li>
-                <li><strong>Node.js:</strong>Javascript runtime.</li>
-                <li><strong>Express.js:</strong>Backend framework.</li>
-                <li><strong>APIs:</strong>Communication between frontend and backend.</li>
-                <li><strong>NPM:</strong>Package manager.</li>
+                <li><strong>React: </strong>JavaScript library for building UIs.</li>
+                <li><strong>Components: </strong>Reusable UI building blocks.</li>
+                <li><strong>Pops & State: </strong>Data handling in components.</li>
+                <li><strong>Node.js: </strong>Javascript runtime.</li>
+                <li><strong>Express.js: </strong>Backend framework.</li>
+                <li><strong>APIs: </strong>Communication between frontend and backend.</li>
+                <li><strong>NPM: </strong>Package manager.</li>
             </ul>
 
             <section class="features">
-                <div class="feature/card">
+                <div class="feature-card">
                     <h3>React-Based UI</h3>
                     <p>
                         Built using component-driven design for fast rendering and maintenance.
                     </p>
                 </div>
-                <div class="feature/card">
+                <div class="feature-card">
                     <h3>Node.js Backend</h3>
                     <p>
                         Handles server-side logic, API routes, and data operations.
                     </p>
                 </div>
-                <div class="feature/card">
+                <div class="feature-card">
                     <h3>REST API</h3>
                     <p>
                         Connects frontend and backend to exchange data seamlessly using HTTP methods.
                     </p>
                 </div>
-                <div class="feature/card">
+                <div class="feature-card">
                     <h3>Scalable</h3>
                     <p>
                         Easily extendable with additional features, microservices, or third-party APIs.
@@ -69,11 +70,11 @@
             <section class="connections">
                 <h2>How It All Connects</h2>
                 <ol>
-                    <li><strong>Frontend (React):</strong>Handles user interface and interactions.</li>
-                    <li><strong>Backend (Node.js & Express.js):</strong>Manages APIs and business logic.</li>
-                    <li><strong>Database (Optional:)</strong>Stores persistent data (e.g., MongoDB or PostgreSQL).</li>
-                    <li><strong>API Communication:</strong>React fetches or sends data to the backend via APIs</li>
-                    <li><strong>Deployment:</strong>Apps can be hosted on services like Vercel, Netlify, or Heroku.</li>
+                    <li><strong>Frontend (React): </strong>Handles user interface and interactions.</li>
+                    <li><strong>Backend (Node.js & Express.js): </strong>Manages APIs and business logic.</li>
+                    <li><strong>Database (Optional): </strong>Stores persistent data (e.g., MongoDB or PostgreSQL).</li>
+                    <li><strong>API Communication: </strong>React fetches or sends data to the backend via APIs</li>
+                    <li><strong>Deployment: </strong>Apps can be hosted on services like Vercel, Netlify, or Heroku.</li>
                 </ol>
             </section>
         </main>
