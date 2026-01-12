@@ -8,26 +8,26 @@
 </head>
 <body>
 
-    <div class="app">
+    <div class="container">
         <!--Header-->
         <header class="header">
             <h1>⚙️ Theme Switcher</h1>
         </header>
         <!--Main Content-->
         <!--Theme Buttons-->
-        <section class="themes">
-            <button class="theme-btn light">🌞 Light</button>
-            <button class="theme-btn dark">🌙 Dark</button>
-            <button class="theme-btn colorful">🌈 Colorful</button>
-            <button class="theme-btn neon">⚡ Neon</button>
+        <section class="themes-selector" aria-label="Theme Options">
+            <button class="theme-btn light-btn active" data-theme="light">🌞 Light</button>
+            <button class="theme-btn dark-btn active" data-theme="dark">🌙 Dark</button>
+            <button class="theme-btn colorful-btn active" data-theme="colorful">🌈 Colorful</button>
+            <button class="theme-btn neon-btn active" data-theme="neon">⚡ Neon</button>
         </section>
 
         <!--Current Theme-->
-        <p class="current-theme">
-            Current Theme: <strong id="current-theme-name">Light</strong>
+        <p class="current-theme" id="currentTheme">
+            Current Theme: <strong>Light</strong>
         </p>
 
-        <main class="content">
+        <main class="content-selector">
             
             <h2>Modern Web Technologies</h2>
 
@@ -41,7 +41,7 @@
                 <li><strong>NPM: </strong>Package manager.</li>
             </ul>
 
-            <section class="features">
+            <section class="feature">
                 <div class="feature-card">
                     <h3>React-Based UI</h3>
                     <p>
@@ -79,5 +79,6 @@
             </section>
         </main>
     </div>
+    <script src="index.js"></script>
     </body>
 </html>
