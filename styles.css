@@ -114,6 +114,10 @@ body {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   overflow: hidden;
+
+  white-space: nowrap;
+  min-width: 120px;
+  justify-content: center;
 }
 .theme-btn::before {
   content: "";
@@ -252,6 +256,14 @@ body {
 @media (max-width: 600px) {
   .features {
     grid-template-columns: 1fr;
+  }
+  .themes {
+    flex-wrap: wrap;
+  }
+
+  .theme-btn {
+    flex: 1 1 48%;
+    min-width: unset;
   }
 }
 .feature-card h3,
