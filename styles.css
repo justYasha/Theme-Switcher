@@ -18,3 +18,22 @@ body {
     padding: 30px;
     border-radius: 12px;
 }
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.themes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.current-theme {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
