@@ -32,3 +32,19 @@ themeButtons.forEach(button => {
         switchTheme(selectedTheme);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    switchTheme("dark");
+});
+document.addEventListener("DOMContentLoaded", function(event) {
+    const keyMap = {
+        "1": "light",
+        "2": "dark",
+        "3": "colorful",
+        "4": "neon"
+    }
+    if (keyMap[event.key]) {
+        switchTheme(keyMap[event.key]);
+        2
+    }
+});
