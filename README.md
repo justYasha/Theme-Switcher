@@ -116,5 +116,3 @@ Este proyecto está pensado como pieza de **portfolio frontend**, mostrando mane
 ## 🧑‍💻 Autor
 
 Hecho con mucho CSS por **Yasha**
-
-> Proyecto creado como práctica y muestra de habilidades frontend / UI
